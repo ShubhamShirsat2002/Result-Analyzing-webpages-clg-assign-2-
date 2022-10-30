@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: url("/img/bg.jpeg") center no-repeat;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(204, 255, 0);
+}
+
+.heading1 p {
+    color: blue;
+    text-align: center;
+    /* font-family: 'IM Fell English', serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+
+}
+
+.userinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34px;
+  
+}
+
+.Markinput {
+    display: flex;
+    margin-top: 33px;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+
+}
+
+body .formhead {
+    align-items: center;
+}
+
+.markinput {
+    height: 139px;
+}
+
+.feild2 body {
+    height: 23px;
+    width: 22px;
+}
+
+.Userinput {
+    margin: 34px;
+    padding: 34px;
+}
+
+.formhead input {
+    /* width: 300px; */
+    height: 25px;
+    border-radius: 3px;
+    border-color: black;
+}
+
+.btn {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    
+}
